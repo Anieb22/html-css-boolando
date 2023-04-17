@@ -37,3 +37,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
+footer{
+    background-color: black;
+}
