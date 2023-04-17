@@ -5,19 +5,24 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.posizione-fissa{
+    position:fixed;
+    width: 100%;
+}
+
 nav{
     background-color: #FF6900;
 }
 
-.posizione-fissa{
-    position: fixed;
+.padding-bottom{
+    padding-bottom: 3000px;
 }
 
 .contenitore{
     background-color: blue;
     width: 70%;
     height: 70px;
-    margin: 10px auto;
+    margin:auto;
 }
 
 .row30{
