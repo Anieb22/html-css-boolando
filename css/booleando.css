@@ -4,3 +4,31 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+nav{
+    background-color: #FF6900;
+}
+
+.posizione-fissa{
+    position: fixed;
+}
+
+.contenitore{
+    background-color: blue;
+    width: 70%;
+    height: 70px;
+    margin: 10px auto;
+}
+
+.row30{
+    width: calc( 50% / 3);
+    border: 3px dashed black;
+    height: 30px;
+    background-color: aqua;
+}
+
+.content-centrale{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
