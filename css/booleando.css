@@ -20,15 +20,17 @@ nav{
 }
 
 .contenitore-menu{
-    background-color: blue;
     height: 70px;
 }
 
 .row30{
     width: calc( 50% / 3);
-    border: 3px dashed black;
+    overflow: visible;
     height: 30px;
-    background-color: aqua;
+}
+
+.row70{
+    width: 70%;
 }
 
 .content-centrale{
@@ -43,18 +45,20 @@ footer{
 
 .background-arancione{
     background-color: salmon;
-    height: 890px;
 }
 
-.testo-bianco{
-    color: white;
-    list-style-type: none;
+.menu-centrato{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     font-size: 9pt;
     font-weight: 600;
+}
+
+.testo-bianco{
+    color: white;
+    list-style-type: none;
 }
 
 .testo-bianco-hover:hover{
@@ -67,4 +71,30 @@ footer{
 
 .margin-prova{
     margin-left: 130px;
+}
+
+.contenitore-foto{
+    width: 400px;
+    height: 608px;
+    background-color: cadetblue;
+    margin: 22px 12px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.wrap-class{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenitore-testo{
+    width: 100%;
+    height: 70px;
+    background-color: crimson;
+    
+}
+
+.dimensione-testo-8pt{
+    font-size: 8pt;
 }
