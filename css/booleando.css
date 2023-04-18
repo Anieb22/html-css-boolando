@@ -77,14 +77,14 @@ footer{
     width: 400px;
     height: 608px;
     background-color: cadetblue;
-    margin: 22px 12px;
+    margin: 22px 0px;
     display: flex;
     align-items: flex-end;
 }
 
 .wrap-class{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
