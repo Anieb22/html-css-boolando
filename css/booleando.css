@@ -5,6 +5,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.width70{
+    width: 70%;
+    margin:auto;
+}
+
 .posizione-fissa{
     position:fixed;
     width: 100%;
@@ -14,15 +19,9 @@ nav{
     background-color: #FF6900;
 }
 
-.padding-bottom{
-    padding-bottom: 3000px;
-}
-
-.contenitore{
+.contenitore-menu{
     background-color: blue;
-    width: 70%;
     height: 70px;
-    margin:auto;
 }
 
 .row30{
@@ -40,4 +39,32 @@ nav{
 
 footer{
     background-color: black;
+}
+
+.background-arancione{
+    background-color: salmon;
+    height: 890px;
+}
+
+.testo-bianco{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 9pt;
+    font-weight: 600;
+}
+
+.testo-bianco-hover:hover{
+    text-decoration: underline;
+}
+
+.margin5{
+    margin: 5px;
+}
+
+.margin-prova{
+    margin-left: 130px;
 }
