@@ -11,6 +11,7 @@
 }
 
 .posizione-fissa{
+    z-index: 1;
     position:fixed;
     top:0;
     left:0;
@@ -78,6 +79,7 @@ footer{
 .contenitore-foto{
     width: 400px;
     margin: 22px 0px;
+    position: relative;
 }
 
 .wrap-class{
@@ -115,4 +117,16 @@ footer{
 
 img{
     width: 100%;
+}
+
+.contenitore-cuore{
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.contenitore-cuore:hover{
+    color: red;
 }
