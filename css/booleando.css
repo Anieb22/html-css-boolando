@@ -130,3 +130,36 @@ img{
 .contenitore-cuore:hover{
     color: red;
 }
+
+.prima-immagine, .contenitore-foto:hover .seconda-immagine{
+    display: block;
+}
+
+.seconda-immagine, .contenitore-foto:hover .prima-immagine{
+    display: none;
+}
+
+.label-rosso{
+    position: absolute;
+    bottom: 100px;
+    background-color: red;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+
+.label-verde{
+    position: absolute;;
+    bottom: 100px;
+    left: 45px;
+    background-color: green;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+
+.label-verde2{
+    position: absolute;
+    background-color: green;
+    bottom: 100px;
+    padding: 5px 10px;
+    font-weight: 700;
+}
